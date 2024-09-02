@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../images/contacticon.jpg">
+  <link rel="stylesheet" href="../css/submit.css">
+  <title>Submit</title>
+</head>
+<body>
+  <h1 class="top">
+    <img src="../images/logo.png">
+    <nav class="nav">
+
+        <ul>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT </a></li>
+            <li><a href="#" class="select">PROJECT</a></li>
+            <li><a href="contact.html">CONTACT </a></li>
+
+        </ul>
+
+    </nav>
+
+    <br><br>
+</h1>
+    <h1>Hello, this is  <span id="name" ></span></h1>
+   <div class="goback"> <button onclick="goback()">Go Back</button></div>
+   <div class="submit"><img id="Img">
+    <aside>
+      <span id="descreption"></span>
+      <br>
+      <div class="right">
+ Name: <input type="text" name="name" placeholder="enter your name" required>
+    <br>
+  <span class="error">*Name is required </span>
+  <br><br>
+   E-mail:</p> <input type="text" name="email" placeholder="enter your email" required>
+  <br>
+  <span class="error">*Email is required  </span>
+  <br><br>
+      </div>
+  <button onclick="gotohomepage()">confirm</button>
+
+</aside>
+   </div>
+    <script>
+        function gotohomepage(){
+    window.location.href="../index.html"
+}
+function goback(){
+  window.location.href="project.html"
+}
+
+      let name = window.localStorage.getItem("name");
+      let src = window.localStorage.getItem("src");
+      let descreption=window.localStorage.getItem("descreption")
+
+         document.getElementById("name").innerHTML = name;
+      document.getElementById("Img").src = src;
+      document.getElementById("descreption").innerHTML=descreption;
+    </script>
+<footer>
+  <div>
+  <div class="left">Telephone:+961232333</div>
+  <div class="right">Gmail:ahmad@gmail.com</div>
+  </div>
+  <br> 
+<div class="insta">
+visit our:<br><br><a href="https://instagram.com/ahmad._.mswi?igshid=Mzc0UWU1OWY=" target="_blank"><img src="../images/insta1.png"  alt="instagram logo"></a>
+</div>
+<div class="copy">Copyright © 2022 - 2023 AhmadALMoussawi®</div>
+</footer>
+  </body>
+  </html>

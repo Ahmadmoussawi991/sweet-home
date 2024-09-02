@@ -1,0 +1,434 @@
+﻿body {
+
+    font-size: 20px;
+   width: 90%;
+    margin: auto;
+    margin-top: 2%;
+   
+}
+
+.top img {
+   float: left;
+   margin-top: 0.5em;
+   width: 40%;
+  
+}
+.nav  {
+    font-size: 0.6em;
+
+  float:right;
+  
+  
+   
+}
+li {
+    display: inline;
+    
+}
+.nav .select {
+    border-style: solid;
+    border-width: 0;
+    padding-bottom: 0.5em;
+    border-bottom-width: 0.15em;
+    color: rgb(99, 17, 112);
+    cursor:pointer;
+}
+
+    .nav a {
+        text-decoration: none;
+        color: black;
+        margin-right: 1em;
+    }
+
+.nav a:hover {
+    border-style: solid;
+    border-width: 0;
+    padding-bottom: 0.5em;
+    border-bottom-width: 0.1em;
+    color: rgb(30, 52, 141);
+}
+
+
+.container {
+    background-image: url('../images/backg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 1.5em;
+    width: 100%;
+    padding-top: 8.75em;
+    margin-top:2.5em;
+   
+}
+.text2 {
+    color: white;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    font-size: 3.5em;
+    text-shadow: 0.05em 0.025em black;
+    
+    
+}
+
+.background {
+    display: inline-block;
+    
+    position: relative;
+    margin-left: 2em;
+    color: transparent;
+    text-align: center;
+}
+
+
+    .background img {
+       
+        border-radius: 1.5em;
+        height: 14em;
+        width: 16em;
+        position: relative;
+        
+    }
+
+    .background span {
+       
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-25%,-30%);
+    }
+    .background:hover {
+        color: rgb(255, 255, 255);
+        font-size: 1em;
+        opacity: 80%;
+        transition: all 1.5s;
+        cursor: pointer;
+    }
+
+        .background:hover img {
+        
+            filter: brightness(50%);
+            opacity: 80%;
+            
+        }
+.text {
+    background-color: grey;
+    font-size: 2.5em;
+    padding: 5%;
+    border-radius: 1.5em;
+    
+    
+}
+.a{
+    
+    text-shadow: 3px 2px black;
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 0.3em 1em 0.3em 1em;
+}
+   .a:hover {
+      
+    background-color: darkslategrey;
+
+}
+
+    .allproject{
+        font-size:2.5em;
+        padding: 0.3em 1em 0.3em 1em;
+    }
+
+
+.container1 {
+   
+    
+    background-image:url('../images/nicehouse.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.75em;
+    font-size:2.5em;
+    padding:5%;
+    width:90%;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    
+}
+.text1{
+    color:white;
+    text-shadow: 0.05em 0.025em black;
+}
+.pdf{
+    margin-top: 2em;
+    background-color:black;
+    border-radius: 1.5em;
+    width:fit-content;
+    padding: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pdf:hover{
+    background-color: darkslategrey;
+    
+}
+.pdf a{
+    text-decoration: none;
+    color:white;
+        
+}
+footer{
+    margin-top:2em;
+    border:5px black double;
+    margin-bottom: 1em;
+    border-radius: 1.5em;
+    background-color: rgb(210, 210, 210);
+  
+}
+footer .left{
+float:left;
+margin-top:2%;
+margin-left: 2%;
+
+}
+footer .right{
+float:right;
+margin-top:2%;
+margin-right: 2%;
+
+
+}
+footer .copy{
+ 
+text-align: center;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+.insta{
+    
+    text-align:center;
+    margin-top: 2em;
+}
+.insta img{
+    width: 3em;
+    height: 3em;
+}
+
+@media only screen and (max-width:1280px){
+    body{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:1080px){
+    body{
+        font-size: 16px;
+    }
+
+ .nav  {
+     font-size: 0.65em;
+ 
+   float:right;
+   
+   
+    
+ }
+}
+@media only screen and (max-width:950px){
+    body{
+        font-size: 15px;
+    }
+
+}
+@media only screen and (max-width:900px){
+    body{
+        font-size: 14px;
+    }
+
+ .nav  {
+     font-size: 0.65em;
+ 
+   float:right;
+   
+   
+    
+ }
+}
+
+@media only screen and (max-width:800px){
+    body{
+        font-size: 13px;
+    }
+
+ .nav  {
+     font-size: 0.65em;
+ 
+   float:right;
+   
+   
+    
+ }
+}
+@media only screen and (max-width:750px){
+    body{
+        font-size: 12px;
+    }
+
+ .nav  {
+     font-size: 0.65em;
+   float:right;
+ }
+}
+
+@media only screen and (max-width:700px){
+    body{
+        font-size:11.5px;
+    }
+    .top img {
+        
+        width: 80%;
+    margin-left:15%;
+        
+      
+       
+     }
+     .nav{
+        width: 100%;
+     
+        text-align: center;
+        
+      }
+    
+ 
+}
+@media only screen and (max-width:600px){
+    body{
+        font-size:11.5px;
+    }
+    .top img {
+        width: 90%;
+        margin-left:12%;
+       
+       
+     }
+   
+     .nav{
+        width: 100%;
+     
+        text-align: center;
+        
+      }
+}
+
+
+@media only screen and (max-width:450px){
+    body{
+        font-size:10px;
+    }
+    .top img {
+        width: 90%;
+        margin-left: 12%;
+       
+       
+     }
+     .nav  {
+    
+        width: 100%;
+     
+        text-align: center;
+        
+        
+     }
+}
+@media only screen and (max-width:400px){
+    body{
+        font-size:8px;
+    }
+    .top img {
+        width: 90%;
+        margin-left: 12%;
+       
+       
+     }
+     .nav  {
+    
+        width: 100%;
+     
+        text-align: center;
+        
+        
+     }
+}
+@media only screen and (max-width:350px){
+    body{
+        font-size:7px;
+    }
+    .top img {
+        width: 90%;
+        margin-left: 14%;
+       
+       
+     }
+     .nav  {
+    
+        width: 100%;
+     
+        text-align: center;
+        
+        
+     }
+}
+@media only screen and (max-width:300px){
+    body{
+        font-size:5px;
+    }
+    .top img {
+        width: 90%;
+        margin-left: 14%;
+       
+       
+     }
+     .nav  {
+    
+        width: 100%;
+     
+        text-align: center;
+        
+        
+     }
+}
+@media only screen and (max-width:250px){
+    body{
+        font-size:4px;
+    }
+    .top img {
+        width: 90%;
+        margin-left: 18%;
+       
+       
+     }
+     .nav  {
+    
+        width: 100%;
+     
+        text-align: center;
+        
+        
+     }
+}
+@media only screen and (max-width:200px){
+    body{
+        font-size:3px;
+    }
+    .top img {
+        width: 90%;
+        margin-left: 15%;
+       
+       
+     }
+     .nav  {
+    
+        width: 100%;
+     
+        text-align: center;
+        
+        
+     }
+    }
